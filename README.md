@@ -4,15 +4,6 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 
 <head>
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-59YL4735DF"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-59YL4735DF');
-</script>
 <meta content="en-gb" http-equiv="Content-Language" />
 <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
 <title>One wire 3x4 keypad</title>
@@ -273,12 +264,4 @@ software V039 + libraries for one wire 4x3 keypad</a></span></o:p></span></p>
         Back to start </a></font></p>
 
 </body>
-<script>
-(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-ga('create', 'UA-88364661-1', 'auto');
-ga('send', 'pageview');
-</script>
 </html>
