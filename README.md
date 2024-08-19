@@ -1,49 +1,5 @@
-# OneWireKeyPad
-1x3 and 4x3 membrane keypad controlled with one wire to the analog pin
-﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+# 1x3 and 4x3 membrane keypad controlled with one wire to the analog pin
 
-<head>
-<meta content="en-gb" http-equiv="Content-Language" />
-<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
-<title>One wire 3x4 keypad</title>
-<style type="text/css">
-p.KopTekstEd
-	{margin-top:0cm;
-	margin-right:0cm;
-	margin-bottom:8.0pt;
-	margin-left:0cm;
-	text-align:center;
-	line-height:107%;
-	font-size:24.0pt;
-	font-family:"Verdana",sans-serif;
-	}
-span.MsoIntenseReference
-	{font-variant:small-caps;
-	color:#4472C4;
-	letter-spacing:.25pt;
-	font-weight:bold;
-}
-.auto-style2 {
-	font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-.auto-style3 {
-	margin-top: 0px;
-}
-.auto-style4 {
-	font-size: xx-small;
-}
-</style>
-<meta content="Arduino Keypad one wire analogue" name="keywords" />
-<meta content="Arduino example wiring 7 digital pins to one waire analogue" name="description" />
-</head>
-
-<body>
-
-<p class="KopTekstEd" style="font-family: Verdana, Geneva, Tahoma, sans-serif">
-<span class="MsoIntenseReference">
-<span style="font-size: 20.0pt; line-height: 107%">One Wire Key Pad</span></span></p>
-<p class="MsoNormal">
 <table style="width: 900px">
 	<tr>
 		<td><span lang="EN-GB" style="mso-ansi-language: EN-GB">
@@ -70,7 +26,7 @@ one wire analogue output. </span></o:p>
 <span lang="EN-GB" style="mso-ansi-language: EN-GB">
 <o:p><span class="auto-style2"> <br />
 <br />
-The addition with a few resistors converts the key pads to one wire and saves 
+The addition of a few resistors converts the key pads to one wire and saves 
 many digital pins at the cost one analogue pin.<br />
 Libraries are not needed anymore and will save many memory bytes but lacking</span></o:p><o:p><span class="auto-style2"> 
 interrupt driven detection of operation of the key pad. <br />
@@ -78,8 +34,7 @@ But processors are very fast and in many programs it is possible to check the
 buttons more than 1000 times a second.<br />
 The three button key pad is a nice, flat, replacement of a rotary encoder saving 
 three digital pins, a library and 1500 bytes.</span></o:p></span></p>
-<p class="MsoNormal"><span lang="EN-GB" style="mso-ansi-language: EN-GB">
-<o:p><span class="auto-style2"><strong>3 X 4 key pad</strong><br />
+<br />
 Three different resistor resistances are used.<br />
 This page:
 <a href="http://www.circuitbasics.com/how-to-set-up-a-keypad-on-an-arduino/">
@@ -263,5 +218,3 @@ software V039 + libraries for one wire 4x3 keypad</a></span></o:p></span></p>
 	<a href="../index.html">&lt; --
         Back to start </a></font></p>
 
-</body>
-</html>
