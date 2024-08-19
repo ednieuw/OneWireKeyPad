@@ -1,5 +1,10 @@
 # 1x3 and 4x3 membrane keypad controlled with one wire to the analog pin
 
+Quick and dirty copied from my web site:
+https://ednieuw.home.xs4all.nl/Woordklok/OneWireKeyPad/OneWireKeyPad.html
+
+
+
 <table style="width: 900px">
 	<tr>
 		<td><span lang="EN-GB" style="mso-ansi-language: EN-GB">
