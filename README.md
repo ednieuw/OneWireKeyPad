@@ -7,8 +7,7 @@ https://ednieuw.home.xs4all.nl/Woordklok/OneWireKeyPad/OneWireKeyPad.html
 
 <table style="width: 900px">
 	<tr>
-		<td><span lang="EN-GB" style="mso-ansi-language: EN-GB">
-<span class="auto-style2">This page describes how to wire the output pins of a:<br />
+		<td>This page describes how to wire the output pins of a:<br />
 		<br />
 		- seven 
 pins, 3 columns * 4 rows key pad <br />
@@ -16,39 +15,36 @@ pins, 3 columns * 4 rows key pad <br />
 		<br />
 		and a <br />
 		</span></span></td>
-		<td><img alt="keypad" height="200" src="3x4keypaddwars.jpg" /></td>
+		<td><img alt="keypad" height="200" src="pics/3x4keypaddwars.jpg" /></td>
 	</tr>
 	<tr>
-		<td><span lang="EN-GB" style="mso-ansi-language: EN-GB">
-<span class="auto-style2">- four pins three button 3 x 1 keypad, <br />
-		</span> <o:p><span class="auto-style2"><br />
+		<td>
+- four pins three button 3 x 1 keypad, <br />
+		<br />
 		to a 
 one wire analogue output. </span></o:p>
-		</span></td>
-		<td><img alt="keypad 3b" height="100" src="3Button.jpg" /></td>
+		</td>
+		<td><img alt="keypad 3b" height="100" src="pics/3Button.jpg" /></td>
 	</tr>
 </table>
-<span lang="EN-GB" style="mso-ansi-language: EN-GB">
-<o:p><span class="auto-style2"> <br />
 <br />
 The addition of a few resistors converts the key pads to one wire and saves 
 many digital pins at the cost one analogue pin.<br />
-Libraries are not needed anymore and will save many memory bytes but lacking</span></o:p><o:p><span class="auto-style2"> 
+Libraries are not needed anymore and will save many memory bytes but lacking 
 interrupt driven detection of operation of the key pad. <br />
 But processors are very fast and in many programs it is possible to check the 
 buttons more than 1000 times a second.<br />
 The three button key pad is a nice, flat, replacement of a rotary encoder saving 
-three digital pins, a library and 1500 bytes.</span></o:p></span></p>
+three digital pins, a library and 1500 bytes.</p>
 <br />
 Three different resistor resistances are used.<br />
 This page:
 <a href="http://www.circuitbasics.com/how-to-set-up-a-keypad-on-an-arduino/">
 http://www.circuitbasics.com/how-to-set-up-a-keypad-on-an-arduino/</a>
-<span lang="EN-GB" style="mso-ansi-language: EN-GB">explains nicely how the key 
-pad works.</span><br />
+explains how the key pad works.<br />
 <br />
 There are many tutorials how to make a one-key wire keypad but or they use many 
-resistors, make use of libraries or are hard to follow.</span></o:p></span></p>
+resistors, make use of libraries or are hard to follow.</p>
 <p class="MsoNormal">
 <table style="width: 1000px">
 	<tr>
