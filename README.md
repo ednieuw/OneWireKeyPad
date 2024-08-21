@@ -131,22 +131,23 @@ void loop()
 }</pre>
 	</li>
 </ul>
-<p class="MsoNormal" style="width: 908px"><span lang="EN-GB" style="mso-ansi-language: EN-GB">
+<p>
 <o:p><span class="auto-style2"><br />
 <o:p><strong>3 X 1 key pad<br />
 <br />
 </strong>I use this key pad instead of a rotary encoder.
-<table style="width: 900px">
+<table >
 	<tr>
-		<td colspan="2"><span lang="EN-GB" style="mso-ansi-language: EN-GB">
-		<span class="auto-style2"><a href="pics/3-button-OneWire.jpg">
-		<img alt="PCB" class="auto-style3" height="120" src="pics/3-button-OneWire.jpg" /></a></span></span><a href="pics/3-Button.jpg"><img alt="3-button" class="auto-style3" height="120" src="pics/3-Button.jpg" /></a></td>
+	<td colspan="2">
+	<a href="pics/3-button-OneWire.jpg">
+	<img alt="PCB" height="180" src="pics/3-button-OneWire.jpg" /></a>
+	<a href="pics/3-Button.jpg"><img alt="3-button" class="auto-style3" height="180" src="pics/3-Button.jpg" /></a></td>
 	</tr>
 	<tr>
 		<td>
-		<img alt="Read bits" height="139" src="pics/Readbits3x1keypad.jpg" width="328" /></td>
+		<img alt="Read bits" height="180" src="pics/Readbits3x1keypad.jpg"  /></td>
 		<td><a href="3-button-OneWire.jpg">
-		<img alt="PCB" height="211" src="pics/3-button-OneWire.jpg" width="514" /></a></td>
+		<img alt="PCB" height="180" src="pics/3-button-OneWire.jpg" /></a></td>
 	</tr>
 	<tr>
 		<td>&nbsp;</td>
