@@ -1,29 +1,25 @@
 # 1x3 and 4x3 membrane keypad controlled with one wire to the analog pin
 
-
-
-
-
-<table style="width: 900px">
-	<tr>
-		<td>This page describes how to wire the output pins of a:<br />
-		<br />
-		- seven 
+[Page as PDF](https://github.com/ednieuw/OneWireKeyPad/blob/main/One%20wire%203x4%20keypad.pdf)
+<table>
+<tr>
+ <td>This page describes how to wire the output pins of a:<br />
+<br />
+- seven 
 pins, 3 columns * 4 rows key pad <br />
-		<br />
-		<br />
-		and a <br />
-		</span></span></td>
-		<td><img alt="keypad" height="200" src="pics/3x4keypaddwars.jpg" /></td>
-	</tr>
-	<tr>
-		<td>
+<br />
+<br />
+and a <br />
+</td>
+<td><img alt="keypad" height="200" src="pics/3x4keypaddwars.jpg" /></td>
+</tr>
+<tr>
+<td>
 - four pins three button 3 x 1 keypad, <br />
-		<br />
-		to a 
-one wire analogue output. </span></o:p>
-		</td>
-		<td><img alt="keypad 3b" height="100" src="pics/3Button.jpg" /></td>
+	<br />
+to an one wire analogue output.
+	</td>
+<td><img alt="keypad 3b" height="100" src="pics/3Button.jpg" /></td>
 	</tr>
 </table>
 <br />
@@ -44,41 +40,37 @@ explains how the key pad works.<br />
 <br />
 There are many tutorials how to make a one-key wire keypad but or they use many 
 resistors, make use of libraries or are hard to follow.</p>
-<p class="MsoNormal">
-<table style="width: 1000px">
-	<tr>
-		<td class="auto-style2">In the picture on the right one can see that by 
-		pressing a button a connection is made between a row and a column. <br />
-		By choosing the right resistor combination the output will be different 
-		for every button. <br />
-		5V is connected to C1 and ground after a 1.1 kilo-ohm resistor.<br />
-		When 3 is pressed the current flows from R1 tot C3 and flows to a 1.1 
-		kilo-ohm resistor resulting in a reading of 989 bits. <br />
-		Pressing * R4 and C1 and connected resulting in a flow through all the 
-		resistors and a reading of 125 bits.<br />
-		To discriminate between the buttons the difference between the 
-		difference button must be as large as possible.<br />
-		Because resistors of identical resistance value will not have exact the 
-		same resistance measured, readings between modules will vary a little. 
-		In the Arduino source code the range per button is large enough to 
-		overcome these differences. </td>
-		<td class="auto-style2">
-		<img alt="Analogue readings" height="342" src="pics/Exceldata.png" width="280" /></td>
-		<td><img alt="Keys" height="342" src="pics/3x4keypadbuttonsk.jpg" />&nbsp;</td>
+<p>
+<table>
+<tr>
+	<td> In the picture on the right one can see that by 
+	pressing a button a connection is made between a row and a column. <br />
+	By choosing the right resistor combination the output will be different 
+	for every button. <br />
+	5V is connected to C1 and ground after a 1.1 kilo-ohm resistor.<br />
+	When 3 is pressed the current flows from R1 tot C3 and flows to a 1.1 
+	kilo-ohm resistor resulting in a reading of 989 bits. <br />
+	Pressing * R4 and C1 and connected resulting in a flow through all the 
+	resistors and a reading of 125 bits.<br />
+	To discriminate between the buttons the difference between the 
+	difference button must be as large as possible.<br />
+	Because resistors of identical resistance value will not have exact the 
+	same resistance measured, readings between modules will vary a little. 
+	In the Arduino source code the range per button is large enough to 
+	overcome these differences. </td>
+	<td >
+ 		<img alt="Analogue readings" height="450" src="pics/Exceldata.png"></td>
+	<td>
+		<img alt="Keys" height="450" src="pics/3x4keypadbuttonsk.jpg"></td>
 	</tr>
-	<tr>
-		<td class="auto-style2" colspan="3">&nbsp;</td>
-	</tr>
+
 </table>
-<span lang="EN-GB" style="mso-ansi-language: EN-GB">
-<o:p><span class="auto-style2"><br />
-</span></o:p>
-</span></p>
-<table width="1000">
+<p>
+<table>
 	<tr>
 		<td>
-		<img alt="3x4 Keypad" class="auto-style2" height="429" src="pics/Arduino-Keypad-3X4-Pin-Diagram.jpg" width="222" /></td>
-		<td style="width: 887px">
+		<img alt="3x4 Keypad" class="auto-style2" height="429" src="pics/Arduino-Keypad-3X4-Pin-Diagram.jpg" /></td>
+		<td>
 		<img alt="Module" height="429" src="pics/Module.jpg" /></td>
 	</tr>
 	<tr>
