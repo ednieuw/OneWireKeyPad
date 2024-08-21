@@ -1,7 +1,6 @@
 # 1x3 and 4x3 membrane keypad controlled with one wire to the analog pin
 
-Quick and dirty copied from my web site:
-https://ednieuw.home.xs4all.nl/Woordklok/OneWireKeyPad/OneWireKeyPad.html
+
 
 
 
@@ -198,25 +197,15 @@ char Key;
     digitalWrite(ledPin, LOW);           // turn the ledPin off:
    }
 }</pre>
-<pre>
-                          </pre>
-<p class="MsoNormal"><span lang="EN-GB" style="mso-ansi-language: EN-GB">
+
+<p>
 <o:p>
 <o:p></o:p>
-<br class="auto-style2" />
-<span class="auto-style2"><a href="FibonacciClockV039.zip">FibonacciClock 
-software V039 + libraries for one wire 4x3 keypad</a></span></o:p></span></p>
-<p class="MsoNormal">
-<o:p>
-</o:p>
-</p>
-<p class="MsoNormal">
-<o:p><font face="Verdana, Arial, Helvetica, sans-serif">Ed Nieuwenhuys, 
-	July 2022, March 2021<br />
-<span class="auto-style4">November</span><o:p><span class="auto-style4"> 
-        2019</span></font></o:p></o:p></p>
+<br />
+<a href="FibonacciClockV039.zip">FibonacciClock 
+software V039 + libraries for one wire 4x3 keypad</a></p>
+Ed Nieuwenhuys, July 2022
 
-<p class="MsoNormal"><font face="Verdana, Arial, Helvetica, sans-serif">
-	<a href="../index.html">&lt; --
-        Back to start </a></font></p>
 
+Copied from my web site:
+https://ednieuw.nl/Woordklok/OneWireKeyPad/OneWireKeyPad.html
