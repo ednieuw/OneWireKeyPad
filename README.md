@@ -64,8 +64,8 @@ resistors, make use of libraries or are hard to follow.</p>
 		In the Arduino source code the range per button is large enough to 
 		overcome these differences. </td>
 		<td class="auto-style2">
-		<img alt="Analogue readings" height="342" src="Exceldata.png" width="280" /></td>
-		<td><img alt="Keys" height="342" src="3x4keypadbuttonsk.jpg" />&nbsp;</td>
+		<img alt="Analogue readings" height="342" src="pics/Exceldata.png" width="280" /></td>
+		<td><img alt="Keys" height="342" src="pics/3x4keypadbuttonsk.jpg" />&nbsp;</td>
 	</tr>
 	<tr>
 		<td class="auto-style2" colspan="3">&nbsp;</td>
@@ -78,9 +78,9 @@ resistors, make use of libraries or are hard to follow.</p>
 <table width="1000">
 	<tr>
 		<td>
-		<img alt="3x4 Keypad" class="auto-style2" height="429" src="Arduino-Keypad-3X4-Pin-Diagram.jpg" width="222" /></td>
+		<img alt="3x4 Keypad" class="auto-style2" height="429" src="pics/Arduino-Keypad-3X4-Pin-Diagram.jpg" width="222" /></td>
 		<td style="width: 887px">
-		<img alt="Module" height="429" src="Module.jpg" /></td>
+		<img alt="Module" height="429" src="pics/Module.jpg" /></td>
 	</tr>
 	<tr>
 		<td class="auto-style2"><br />
@@ -139,14 +139,14 @@ void loop()
 <table style="width: 900px">
 	<tr>
 		<td colspan="2"><span lang="EN-GB" style="mso-ansi-language: EN-GB">
-		<span class="auto-style2"><a href="3-button-OneWire.jpg">
-		<img alt="PCB" class="auto-style3" height="120" src="3-button-OneWire.jpg" /></a></span></span><a href="3-Button.jpg"><img alt="3-button" class="auto-style3" height="120" src="3-Button.jpg" /></a></td>
+		<span class="auto-style2"><a href="pics/3-button-OneWire.jpg">
+		<img alt="PCB" class="auto-style3" height="120" src="pics/3-button-OneWire.jpg" /></a></span></span><a href="pics/3-Button.jpg"><img alt="3-button" class="auto-style3" height="120" src="pics/3-Button.jpg" /></a></td>
 	</tr>
 	<tr>
 		<td>
-		<img alt="Read bits" height="139" src="Readbits3x1keypad.jpg" width="328" /></td>
+		<img alt="Read bits" height="139" src="pics/Readbits3x1keypad.jpg" width="328" /></td>
 		<td><a href="3-button-OneWire.jpg">
-		<img alt="PCB" height="211" src="3-button-OneWire.jpg" width="514" /></a></td>
+		<img alt="PCB" height="211" src="pics/3-button-OneWire.jpg" width="514" /></a></td>
 	</tr>
 	<tr>
 		<td>&nbsp;</td>
